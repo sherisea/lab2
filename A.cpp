@@ -4,7 +4,7 @@
 #include<fstream>
 #include<string>
 #include<cstdlib>
-#include "lab2.h"
+#include "a.h"
 using namespace std;
 
 
@@ -16,7 +16,7 @@ int main(){
 	
 	double i=0;
 	string headline;
-	score lab2;
+	score A;
 	ifstream inFile("filein.txt",ios::in);
 	if(!inFile)
 		{
@@ -32,87 +32,87 @@ int main(){
 			if(inFile>>i>>Qa>>Qb)
 			{
 				
-				lab2.score1(Qa,Qb);
-				lab2.down1();
-				lab2.down2();
-				lab2.opcount1();
-				lab2.opcount2();
-				lab2.multi1(KK);
-				lab2.multi2(N);
-				lab2.calculate();
-				lab2.calculate1();
-				outFile<<lab2.calculate()<<"\t"<<lab2.calculate1()<<endl;
+				A.score1(Qa,Qb);
+				A.down1();
+				A.down2();
+				A.opcount1();
+				A.opcount2();
+				A.multi1(KK);
+				A.multi2(N);
+				A.calculate();
+				A.calculate1();
+				outFile<<A.calculate()<<"\t"<<A.calculate1()<<endl;
 				
 			}
-						Q1=lab2.calculate();
-		    Q2=lab2.calculate1();
+						Q1=A.calculate();
+		    Q2=A.calculate1();
 			
-	lab2.score1(Q1,Q2);
-				lab2.down1();
-				lab2.down2();
-				lab2.opcount1();
-				lab2.opcount2();
-				lab2.multi1(K1);
-				lab2.multi2(N1);
-				lab2.calculate();
-				lab2.calculate1();
-				outFile<<lab2.calculate()<<"\t"<<lab2.calculate1()<<endl;
+	A.score1(Q1,Q2);
+				A.down1();
+				A.down2();
+				A.opcount1();
+				A.opcount2();
+				A.multi1(K1);
+				A.multi2(N1);
+				A.calculate();
+				A.calculate1();
+				outFile<<A.calculate()<<"\t"<<A.calculate1()<<endl;
 
-				Q3=lab2.calculate();
-		    Q4=lab2.calculate1();
+				Q3=A.calculate();
+		    Q4=A.calculate1();
 			
-	lab2.score1(Q3,Q4);
-				lab2.down1();
-				lab2.down2();
-				lab2.opcount1();
-				lab2.opcount2();
-				lab2.multi1(K2);
-				lab2.multi2(N2);
-				lab2.calculate();
-				lab2.calculate1();
-				outFile<<lab2.calculate()<<"\t"<<lab2.calculate1()<<endl;
+	A.score1(Q3,Q4);
+				A.down1();
+				A.down2();
+				A.opcount1();
+				A.opcount2();
+				A.multi1(K2);
+				A.multi2(N2);
+				A.calculate();
+				A.calculate1();
+				outFile<<A.calculate()<<"\t"<<A.calculate1()<<endl;
 
-				Q5=lab2.calculate();
-		    Q6=lab2.calculate1();
+				Q5=A.calculate();
+		    Q6=A.calculate1();
 			
-	lab2.score1(Q5,Q6);
-				lab2.down1();
-				lab2.down2();
-				lab2.opcount1();
-				lab2.opcount2();
-				lab2.multi1(K3);
-				lab2.multi2(N3);
-				lab2.calculate();
-				lab2.calculate1();
-				outFile<<lab2.calculate()<<"\t"<<lab2.calculate1()<<endl;
+	A.score1(Q5,Q6);
+				A.down1();
+				A.down2();
+				A.opcount1();
+				A.opcount2();
+				A.multi1(K3);
+				A.multi2(N3);
+				A.calculate();
+				A.calculate1();
+				outFile<<A.calculate()<<"\t"<<A.calculate1()<<endl;
 
-				Q7=lab2.calculate();
-		    Q8=lab2.calculate1();
+				Q7=A.calculate();
+		    Q8=A.calculate1();
 			
-	lab2.score1(Q7,Q8);
-				lab2.down1();
-				lab2.down2();
-				lab2.opcount1();
-				lab2.opcount2();
-				lab2.multi1(K4);
-				lab2.multi2(N4);
-				lab2.calculate();
-				lab2.calculate1();
-				outFile<<lab2.calculate()<<"\t"<<lab2.calculate1()<<endl;
+	A.score1(Q7,Q8);
+				A.down1();
+				A.down2();
+				A.opcount1();
+			        A.opcount2();
+				A.multi1(K4);
+				A.multi2(N4);
+				A.calculate();
+				A.calculate1();
+				outFile<<A.calculate()<<"\t"<<A.calculate1()<<endl;
 
-				Q9=lab2.calculate();
-		    Q10=lab2.calculate1();
+				Q9=A.calculate();
+		    Q10=A.calculate1();
 			
-	lab2.score1(Q9,Q10);
-				lab2.down1();
-				lab2.down2();
-				lab2.opcount1();
-				lab2.opcount2();
-				lab2.multi1(K5);
-				lab2.multi2(N5);
-				lab2.calculate();
-				lab2.calculate1();
-				outFile<<lab2.calculate()<<"\t"<<lab2.calculate1()<<endl;
+	A.score1(Q9,Q10);
+				A.down1();
+				A.down2();
+				A.opcount1();
+				A.opcount2();
+				A.multi1(K5);
+				A.multi2(N5);
+				A.calculate();
+				A.calculate1();
+				outFile<<A.calculate()<<"\t"<<A.calculate1()<<endl;
 		
 	
 				return 0;
